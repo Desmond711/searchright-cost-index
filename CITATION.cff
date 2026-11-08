@@ -14,8 +14,8 @@ type: dataset
 version: "2026-11"
 date-released: "2026-11-08"
 license: CC-BY-4.0
-url: "https://github.com/<GITHUB-USER>/searchright-cost-index"
-repository-code: "https://github.com/<GITHUB-USER>/searchright-cost-index"
+url: "https://github.com/Desmond711/searchright-cost-index"
+repository-code: "https://github.com/Desmond711/searchright-cost-index"
 keywords:
   - home services
   - construction cost

@@ -17,7 +17,7 @@ CITATION.cff           how to cite it
 Download directly — no login, no sign-up, no API key:
 
 ```bash
-curl -O https://raw.githubusercontent.com/<GITHUB-USER>/searchright-cost-index/main/data/cost-index.json
+curl -O https://raw.githubusercontent.com/Desmond711/searchright-cost-index/main/data/cost-index.json
 ```
 
 ## Why figure kinds
@@ -101,7 +101,7 @@ The same data, with each record's scope and sourcing note spelled out in prose, 
   author = {{Search Right}},
   year   = {2026},
   note   = {113 sourced U.S. household-service cost records, CC BY 4.0},
-  url    = {https://github.com/<GITHUB-USER>/searchright-cost-index}
+  url    = {https://github.com/Desmond711/searchright-cost-index}
 }
 ```
 
