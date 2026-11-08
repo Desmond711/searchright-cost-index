@@ -1,0 +1,14 @@
+const yaml = require('yaml');
+const fs = require('fs');
+const p = '/home/team/shared/research/apd-core-bundle/entry/Search-Right-Home-Service-Cost-Index.yml';
+const d = yaml.parse(fs.readFileSync(p, 'utf8'));
+console.log('parsed OK');
+console.log('title   :', d.title);
+console.log('category:', d.category);
+console.log('homepage:', d.homepage);
+if (d.category !== 'Economics') throw new Error('category mismatch');
+if (!d.title || !d.homepage || !d.category) throw new Error('missing required field');
+const recs = JSON.parse(fs.readFileSync('/home/team/shared/research/apd-core-bundle/data/cost-index.json', 'utf8'));
+console.log('bundled records:', recs.length);
+if (recs.length !== 113) throw new Error('record count drifted: ' + recs.length);
+console.log('VALIDATION PASS');
