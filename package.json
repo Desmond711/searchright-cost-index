@@ -1,0 +1,11 @@
+{
+  "name": "searchright-cost-index",
+  "version": "2026.11.0",
+  "private": true,
+  "description": "Sourced U.S. household-service cost records, each with a figure kind that constrains what the number may be used to claim.",
+  "license": "CC-BY-4.0",
+  "scripts": {
+    "check": "node scripts/check-readme-counts.mjs",
+    "test": "node scripts/check-readme-counts.mjs"
+  }
+}

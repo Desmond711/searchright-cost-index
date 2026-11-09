@@ -28,7 +28,7 @@
     "figureKind": "non_dollar",
     "source_name": "BLS and NHTSA — wages and safety standards, no price, read 2026-10-10",
     "source_date": "2026-10-10",
-    "updated": "2026-11-03",
+    "updated": "2026-11-07",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -96,7 +96,7 @@
     "figureKind": "hourly_wage",
     "source_name": "BLS OEWS 49-3023, May 2025 — wages only, no repair price",
     "source_date": "2025",
-    "updated": "2026-11-04",
+    "updated": "2026-11-07",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -113,7 +113,7 @@
     "figureKind": "hourly_wage",
     "source_name": "BLS OEWS 49-3023, May 2025 — wages only, no repair price",
     "source_date": "2025",
-    "updated": "2026-11-04",
+    "updated": "2026-11-07",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -130,7 +130,7 @@
     "figureKind": "hourly_wage",
     "source_name": "BLS OEWS 47-2051, May 2025 ($28.87 mean wage — the labor floor, not the bill)",
     "source_date": "2025",
-    "updated": "2026-11-03",
+    "updated": "2026-11-08",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -164,7 +164,7 @@
     "figureKind": "non_dollar",
     "source_name": "NOAA, 2025",
     "source_date": "2025",
-    "updated": "2026-11-06",
+    "updated": "2026-11-07",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -181,7 +181,7 @@
     "figureKind": "non_dollar",
     "source_name": "EIA, 2024",
     "source_date": "2024",
-    "updated": "2026-11-03",
+    "updated": "2026-11-07",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1014,7 +1014,7 @@
     "figureKind": "non_dollar",
     "source_name": "EIA, 2024 prices; NOAA, 2025 degree days",
     "source_date": "2025",
-    "updated": "2026-11-06",
+    "updated": "2026-11-08",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1048,7 +1048,7 @@
     "figureKind": "hourly_wage",
     "source_name": "BLS OEWS 47-2041/2042/2044, May 2025 ($27.40–$29.69 mean wages — the labor floor, not the bill)",
     "source_date": "2025",
-    "updated": "2026-11-03",
+    "updated": "2026-11-08",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1082,7 +1082,7 @@
     "figureKind": "hourly_wage",
     "source_name": "BLS OEWS 47-2181, May 2025 ($27.95 mean wage — the labor floor, not the bill)",
     "source_date": "2025",
-    "updated": "2026-11-03",
+    "updated": "2026-11-08",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1133,7 +1133,7 @@
     "figureKind": "single_average",
     "source_name": "Remodeling 2025 Cost vs. Value Report (Zonda Media) — a modelled national benchmark, not an average of quotes",
     "source_date": "2025",
-    "updated": "2026-11-05",
+    "updated": "2026-11-06",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1167,7 +1167,7 @@
     "figureKind": "non_dollar",
     "source_name": "ENERGY STAR, IRS 25C and DOE Home Energy Rebates — no installed price",
     "source_date": null,
-    "updated": "2026-11-04",
+    "updated": "2026-11-07",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1184,7 +1184,7 @@
     "figureKind": "non_dollar",
     "source_name": "DOE Home Energy Rebates and IRS 25C — incentives, no price",
     "source_date": null,
-    "updated": "2026-11-06",
+    "updated": "2026-11-08",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1201,7 +1201,7 @@
     "figureKind": "non_dollar",
     "source_name": "BLS OEWS 49-9021, May 2025 — wages only, no installed-price series",
     "source_date": "2025",
-    "updated": "2026-11-05",
+    "updated": "2026-11-08",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1252,7 +1252,7 @@
     "figureKind": "single_average",
     "source_name": "California Department of Insurance, 2023",
     "source_date": "2023",
-    "updated": "2026-10-08",
+    "updated": "2026-10-22",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1269,7 +1269,7 @@
     "figureKind": "single_average",
     "source_name": "Florida Office of Insurance Regulation, 2026",
     "source_date": "2026",
-    "updated": "2026-10-08",
+    "updated": "2026-10-22",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1354,7 +1354,7 @@
     "figureKind": "single_average",
     "source_name": "Triple-I / NAIC, 2022",
     "source_date": "2022",
-    "updated": "2026-10-07",
+    "updated": "2026-11-07",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1419,7 +1419,7 @@
     "low": 1749,
     "high": 8156,
     "currency": "USD",
-    "figureKind": "whole_job_range",
+    "figureKind": "supplier_spread",
     "source_name": "Oklahoma Insurance Department, 8/2026",
     "source_date": "2026",
     "updated": "2026-11-08",
@@ -1432,12 +1432,12 @@
     "title": "What affects homeowners insurance rates: seven factors",
     "category": "insurance",
     "query": "what affects home insurance cost",
-    "figure": "$893–$2,677",
-    "low": 893,
-    "high": 2677,
-    "currency": "USD",
-    "figureKind": "state_average_spread",
-    "source_name": "Triple-I / NAIC, 2022",
+    "figure": "2.8%",
+    "low": null,
+    "high": null,
+    "currency": null,
+    "figureKind": "non_dollar",
+    "source_name": "Triple-I — ISO claim data, 2018–2022 (a claims share, not a premium)",
     "source_date": "2022",
     "updated": "2026-11-08",
     "license": "CC BY 4.0",
@@ -1456,7 +1456,7 @@
     "figureKind": "state_average_spread",
     "source_name": "Triple-I / NAIC, 2022",
     "source_date": "2022",
-    "updated": "2026-11-06",
+    "updated": "2026-11-07",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1473,7 +1473,7 @@
     "figureKind": "non_dollar",
     "source_name": "BLS OEWS 47-2061, May 2025",
     "source_date": "2025",
-    "updated": "2026-11-03",
+    "updated": "2026-11-07",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1490,7 +1490,7 @@
     "figureKind": "non_dollar",
     "source_name": "BLS OEWS 47-2111, May 2025",
     "source_date": "2025",
-    "updated": "2026-11-03",
+    "updated": "2026-11-04",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1507,7 +1507,7 @@
     "figureKind": "non_dollar",
     "source_name": "Move.org — one company's 2024 quote sample, not an industry average",
     "source_date": "2024",
-    "updated": "2026-11-02",
+    "updated": "2026-11-07",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1521,10 +1521,10 @@
     "low": 3036,
     "high": 18400,
     "currency": "USD",
-    "figureKind": "whole_job_range",
+    "figureKind": "scope_banded",
     "source_name": "Move.org — one company's 2024 quote sample, not an industry average",
     "source_date": "2024",
-    "updated": "2026-11-04",
+    "updated": "2026-11-08",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1538,10 +1538,10 @@
     "low": 1200,
     "high": 29000,
     "currency": "USD",
-    "figureKind": "whole_job_range",
+    "figureKind": "scope_banded",
     "source_name": "Move.org — one company's 2024 quote sample, not an industry average",
     "source_date": "2024",
-    "updated": "2026-11-04",
+    "updated": "2026-11-08",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1558,7 +1558,7 @@
     "figureKind": "non_dollar",
     "source_name": "Move.org (2024) — one company's quote sample, not an industry average",
     "source_date": "2024",
-    "updated": "2026-10-31",
+    "updated": "2026-11-03",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1575,7 +1575,7 @@
     "figureKind": "non_dollar",
     "source_name": "Move.org (2024) — per-move figures only; no hourly series found",
     "source_date": "2024",
-    "updated": "2026-10-31",
+    "updated": "2026-11-03",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1592,7 +1592,7 @@
     "figureKind": "non_dollar",
     "source_name": "Move.org (2024) — one company's quote sample, not an industry average",
     "source_date": "2024",
-    "updated": "2026-10-31",
+    "updated": "2026-11-03",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1626,7 +1626,7 @@
     "figureKind": "hourly_wage",
     "source_name": "BLS OEWS 47-2141, May 2025 ($26.64 mean wage — the labor floor, not the bill)",
     "source_date": "2025",
-    "updated": "2026-11-04",
+    "updated": "2026-11-08",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1677,7 +1677,7 @@
     "figureKind": "non_dollar",
     "source_name": "BLS OEWS 47-2152, May 2025",
     "source_date": "2025",
-    "updated": "2026-11-03",
+    "updated": "2026-11-04",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1728,7 +1728,7 @@
     "figureKind": "non_dollar",
     "source_name": "ENERGY STAR heat-pump water heater savings model, read 2026-10-10",
     "source_date": "2026-10-10",
-    "updated": "2026-11-04",
+    "updated": "2026-11-07",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1779,7 +1779,7 @@
     "figureKind": "combined_benchmarks",
     "source_name": "Remodeling 2025 Cost vs. Value Report (www.costvsvalue.com), © 2025 Zonda Media, and This Old House (2026)",
     "source_date": "2026",
-    "updated": "2026-11-05",
+    "updated": "2026-11-08",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1793,7 +1793,7 @@
     "low": 18739,
     "high": 46558,
     "currency": "USD",
-    "figureKind": "whole_job_range",
+    "figureKind": "scope_banded",
     "source_name": "This Old House (2026) — one publisher's survey, not an industry average",
     "source_date": "2026",
     "updated": "2026-11-04",
@@ -1819,6 +1819,23 @@
     "attribution": "Search Right — https://www.searchright.io"
   },
   {
+    "url": "https://www.searchright.io/guides/roof-repair-cost-in-angleton",
+    "title": "Roof repair cost in Angleton, Texas (2026)",
+    "category": "roofing",
+    "query": "roof repair cost in angleton",
+    "figure": "$21.87/hr",
+    "low": 21.87,
+    "high": 21.87,
+    "currency": "USD",
+    "figureKind": "hourly_wage",
+    "source_name": "BLS OEWS 47-2181, Houston metro, May 2025 — wages only, no repair price",
+    "source_date": "2025",
+    "updated": "2026-11-08",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Search Right — https://www.searchright.io"
+  },
+  {
     "url": "https://www.searchright.io/guides/roof-repair-cost",
     "title": "Roof repair cost: what a repair quote is built from",
     "category": "roofing",
@@ -1830,7 +1847,7 @@
     "figureKind": "non_dollar",
     "source_name": "BLS OEWS 47-2181, May 2025 — wages only, no repair price",
     "source_date": "2025",
-    "updated": "2026-11-05",
+    "updated": "2026-11-08",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1864,7 +1881,7 @@
     "figureKind": "hourly_wage",
     "source_name": "BLS OEWS 47-4071, May 2025 ($25.72 wage — service and repair, not installation)",
     "source_date": "2025",
-    "updated": "2026-11-01",
+    "updated": "2026-11-08",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"
@@ -1898,7 +1915,7 @@
     "figureKind": "hourly_wage",
     "source_name": "BLS OEWS 37-3013, May 2025 ($26.91 mean wage — covers trimming and pruning too, not removal alone)",
     "source_date": "2025",
-    "updated": "2026-11-03",
+    "updated": "2026-11-08",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Search Right — https://www.searchright.io"

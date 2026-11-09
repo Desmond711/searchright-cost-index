@@ -2,11 +2,13 @@ cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 title: "Search Right Home Service Cost Index"
 abstract: >-
-  113 sourced U.S. household-service cost records across 22 trades, each carrying a figure,
+  114 sourced U.S. household-service cost records across 22 trades, each carrying a figure,
   the publisher it came from, that publisher's own date, and a figure kind that constrains
-  what the number may be used to claim. 12 records are whole-job low-high ranges; the rest
-  are annual running costs, worker wages, single averages, state-average spreads, a combined
-  benchmark, a unit price, or carry no dollar figure at all.
+  what the number may be used to claim. 11 records are whole-job low-high ranges; the rest
+  are annual running costs, worker wages, single averages, unit prices, ranges banded by
+  distance or size, state-average spreads, supplier spreads, a combined benchmark, or carry
+  no dollar figure at all. Only whole_job_range records support a claim that a quote falls
+  inside a published range.
 authors:
   - name: "Search Right"
     website: "https://www.searchright.io"
