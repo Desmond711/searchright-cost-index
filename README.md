@@ -1,6 +1,6 @@
 # Search Right Home Service Cost Index
 
-A machine-readable index of sourced U.S. household-service costs: **114 records across 22
+A machine-readable index of sourced U.S. household-service costs: **115 records across 22
 trades**, each carrying the figure, the publisher it came from, that publisher's own date,
 and the licence.
 
@@ -8,7 +8,7 @@ The point of this dataset is not the numbers on their own — it is that **every
 what kind of figure it is**, so a number cannot be used for a claim it does not support.
 
 ```
-data/cost-index.json   114 records, one JSON array
+data/cost-index.json   115 records, one JSON array
 SCHEMA.md              every field, and what each figure kind means
 LICENSE                CC BY 4.0
 CITATION.cff           how to cite it
@@ -40,7 +40,7 @@ So each record declares its kind:
 | `hourly_wage` | 10 | a worker's wage, not a price for the work |
 | `single_average` | 6 | one average, no range |
 | `unit_price` | 2 | a per-unit rate, not a whole-job range |
-| `scope_banded` | 3 | the range's ends are the same job at different distances or sizes |
+| `scope_banded` | 4 | the range's ends are different jobs — different distances, sizes, or a state row against a national table |
 | `state_average_spread` | 1 | low–high **across state averages**, not a quote range |
 | `supplier_spread` | 1 | the spread across competing suppliers for one identical job |
 | `combined_benchmarks` | 1 | two publishers' figures on one spread — not one range |
@@ -49,8 +49,9 @@ So each record declares its kind:
 Only `whole_job_range` supports the statement "this job typically runs between $A and $B".
 
 Three kinds are published as figures and **deliberately refused** as verdicts. A
-`scope_banded` range has ends that are the same job at different distances or sizes — its low
-end is not a cheap quote for your job, it is a different job. A `supplier_spread` measures the
+`scope_banded` range has ends that are different jobs — a short move against a cross-country
+move, a state's row against the national table — so its low end is not a cheap quote for your
+job, it is a different job. A `supplier_spread` measures the
 spread across competing suppliers for one identical job, so it describes supplier variation,
 not job variation. A `combined_benchmarks` figure sets two publishers' numbers on one spread,
 and the two describe different specifications. All three are here because the underlying
@@ -84,7 +85,7 @@ Full field list in [SCHEMA.md](SCHEMA.md).
 
 ## Provenance
 
-58 distinct named sources, including BLS Occupational Employment and Wage Statistics
+59 distinct named sources, including BLS Occupational Employment and Wage Statistics
 (May 2025), Fixr, and the Remodeling Cost vs. Value Report. Each record names its own source
 and that source's date; the dataset does not re-date anything to the export date. Source
 dates in this release range from 2022 to 2026.
@@ -92,7 +93,7 @@ dates in this release range from 2022 to 2026.
 ## Limits — read these before using it
 
 - **U.S. only.** No non-U.S. coverage.
-- **114 records is not 114 comparable prices.** 31 of them carry no dollar figure, and only
+- **115 records is not 115 comparable prices.** 31 of them carry no dollar figure, and only
   11 are whole-job ranges. Filter on `figureKind` before you aggregate.
 - **Not a panel.** This is a snapshot of what publishers said on their own dates, not a time
   series. Do not compute inflation or trends from it.
@@ -130,7 +131,7 @@ the docs stop claiming it.
   title  = {Search Right Home Service Cost Index},
   author = {{Search Right}},
   year   = {2026},
-  note   = {114 sourced U.S. household-service cost records, CC BY 4.0},
+  note   = {115 sourced U.S. household-service cost records, CC BY 4.0},
   url    = {https://github.com/Desmond711/searchright-cost-index}
 }
 ```

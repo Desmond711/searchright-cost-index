@@ -1,6 +1,6 @@
 # Schema — Search Right Home Service Cost Index
 
-One file, `data/cost-index.json`, containing a JSON **array** of 114 objects. No wrapper
+One file, `data/cost-index.json`, containing a JSON **array** of 115 objects. No wrapper
 object, no pagination, no nesting.
 
 ## Fields
@@ -39,7 +39,7 @@ below states what the figure **is**, and what claim it may support.
 | `hourly_wage` | 10 | A worker's wage, e.g. a BLS mean hourly rate. | "The labour in this job is paid around $X/hr." **Not** a price for the work. |
 | `single_average` | 6 | One average with no range. | "The published average is $X." Not a range. |
 | `unit_price` | 2 | A per-unit rate (per sq ft, per linear foot). | "Material or work runs $X per unit." Not a whole-job range. |
-| `scope_banded` | 3 | A range whose two ends are the same job at **different distances or sizes** — a variable the reader never stated. | Nothing about a single job. Its low end is not a cheap quote; it is a different job. |
+| `scope_banded` | 4 | A range whose two ends are **different jobs** — a short move against a cross-country move, a publisher's state row against its national table, a small roof against a large one. | Nothing about a single job. Its low end is not a cheap quote; it is a different job. |
 | `state_average_spread` | 1 | Low–high **across state averages** — the cheapest state to the most expensive. | "State averages range from $A to $B." **Never** "a quote of $X is inside the range." |
 | `supplier_spread` | 1 | The spread across **competing suppliers for one identical job**. | Nothing about job variation — it measures how much suppliers differ on the same job. |
 | `combined_benchmarks` | 1 | Two publishers' figures placed on one spread. | Nothing about a single job — the two figures describe different jobs. |
