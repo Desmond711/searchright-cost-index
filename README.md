@@ -35,7 +35,7 @@ So each record declares its kind:
 
 | figureKind | count | what it is |
 |---|---:|---|
-| `whole_job_range` | 11 | one publisher's low–high for the job as a whole |
+| `whole_job_range` | 12 | one publisher's low–high for the job as a whole |
 | `annual_running_cost` | 48 | a yearly cost, not a job price |
 | `hourly_wage` | 10 | a worker's wage, not a price for the work |
 | `single_average` | 6 | one average, no range |
@@ -44,7 +44,7 @@ So each record declares its kind:
 | `state_average_spread` | 1 | low–high **across state averages**, not a quote range |
 | `supplier_spread` | 1 | the spread across competing suppliers for one identical job |
 | `combined_benchmarks` | 1 | two publishers' figures on one spread — not one range |
-| `non_dollar` | 31 | the record carries no dollar figure at all |
+| `non_dollar` | 30 | the record carries no dollar figure at all |
 
 Only `whole_job_range` supports the statement "this job typically runs between $A and $B".
 
@@ -93,8 +93,8 @@ dates in this release range from 2022 to 2026.
 ## Limits — read these before using it
 
 - **U.S. only.** No non-U.S. coverage.
-- **115 records is not 115 comparable prices.** 31 of them carry no dollar figure, and only
-  11 are whole-job ranges. Filter on `figureKind` before you aggregate.
+- **115 records is not 115 comparable prices.** 30 of them carry no dollar figure, and only
+  12 are whole-job ranges. Filter on `figureKind` before you aggregate.
 - **Not a panel.** This is a snapshot of what publishers said on their own dates, not a time
   series. Do not compute inflation or trends from it.
 - **Not a random sample.** Trades were included because a publisher printed a figure for

@@ -11,10 +11,10 @@ object, no pagination, no nesting.
 | `title` | string | 0 | That page's title. |
 | `category` | string | 0 | Trade slug, e.g. `roofing`, `hvac`, `moving`. 22 distinct values. |
 | `query` | string | 0 | The search phrasing the page targets, e.g. `deck building cost`. |
-| `figure` | string | 26 | The figure **as the publisher printed it**, including currency symbol, en dash and unit — e.g. `"$9,000–$20,000"`, `"$26.64/hr"`. Null when the page carries no dollar figure. |
-| `low` | number | 31 | Lower bound parsed to a number in USD, unformatted. Null when no numeric bound exists. |
-| `high` | number | 31 | Upper bound, same rules. Null when no numeric bound exists. |
-| `currency` | string | 28 | `"USD"`. Null where no money figure is present. |
+| `figure` | string | 25 | The figure **as the publisher printed it**, including currency symbol, en dash and unit — e.g. `"$9,000–$20,000"`, `"$26.64/hr"`. Null when the page carries no dollar figure. |
+| `low` | number | 30 | Lower bound parsed to a number in USD, unformatted. Null when no numeric bound exists. |
+| `high` | number | 30 | Upper bound, same rules. Null when no numeric bound exists. |
+| `currency` | string | 27 | `"USD"`. Null where no money figure is present. |
 | `figureKind` | string | 0 | **The most important field.** See below. |
 | `source_name` | string | 0 | The publisher of the figure and, where the publisher stated one, its date — e.g. `"Fixr build-deck cost page, updated 11 January 2023"`. |
 | `source_date` | string | 6 | The publisher's own date for the figure, not our export date. Mixed granularity by design: `"2023-01-11"`, `"2025"`, `"2026"`. Null where the publisher stated none — never guessed. |
@@ -34,7 +34,7 @@ below states what the figure **is**, and what claim it may support.
 
 | value | count | is | may support |
 |---|---:|---|---|
-| `whole_job_range` | 11 | One publisher's printed low–high for the job as a whole. | "This job typically runs between $A and $B." |
+| `whole_job_range` | 12 | One publisher's printed low–high for the job as a whole. | "This job typically runs between $A and $B." |
 | `annual_running_cost` | 48 | A cost per year (energy, insurance, running costs) — not a one-off job price. | "This costs $X a year to run." |
 | `hourly_wage` | 10 | A worker's wage, e.g. a BLS mean hourly rate. | "The labour in this job is paid around $X/hr." **Not** a price for the work. |
 | `single_average` | 6 | One average with no range. | "The published average is $X." Not a range. |
@@ -43,7 +43,7 @@ below states what the figure **is**, and what claim it may support.
 | `state_average_spread` | 1 | Low–high **across state averages** — the cheapest state to the most expensive. | "State averages range from $A to $B." **Never** "a quote of $X is inside the range." |
 | `supplier_spread` | 1 | The spread across **competing suppliers for one identical job**. | Nothing about job variation — it measures how much suppliers differ on the same job. |
 | `combined_benchmarks` | 1 | Two publishers' figures placed on one spread. | Nothing about a single job — the two figures describe different jobs. |
-| `non_dollar` | 31 | The record carries no dollar figure. | Nothing numeric. The page exists; the figure does not. |
+| `non_dollar` | 30 | The record carries no dollar figure. | Nothing numeric. The page exists; the figure does not. |
 
 If you are aggregating, **filter to a single kind first**. Summing or averaging across kinds
 produces a number that describes nothing.
